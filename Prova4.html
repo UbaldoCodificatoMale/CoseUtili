@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<style>
+    img{
+        width: 100%;
+    }
+
+    .box{
+        width: 500px;
+        margin: 40px auto;
+        overflow: hidden;
+        Border: 1px solid rgb(0,0,0);
+        Border-radius: 8px;
+    }
+
+    .slider{
+        width:100%;
+        Display: flex;
+        Animation: slide 8s infinite;
+    }
+
+    @keyframes slide{
+        0%{
+            Transform : translateX(0);
+        }
+        12%{
+            Transform : translateX(0);
+        }
+        25%{
+            Transform : translateX(-100%);
+        }
+        50%{
+            Transform : translateX(-200%);
+        }
+        75%{
+            Transform : translateX(-300%);
+        }
+        100%{
+            Transform : translateX(-400%);
+        }
+    }
+
+    h3{
+        text-align: center;
+        font-size: 40px;
+    }
+</style>
+<body>
+    <h3>Alcune Pizze Sexy per Te amico</h3>
+    <div class="box">
+        <div class="slider">
+            <img src="https://primochef.it/wp-content/uploads/2019/08/SH_pizza_fatta_in_casa-1200x800.jpg" alt="">
+            <img src="https://www.negroni.com/sites/negroni.com/files/styles/scale__1440_x_1440_/public/pizza_rustica.jpg?itok=Lbp_jtZW" alt="">
+            <img src="https://www.petitchef.it/imgupl/recipe/pizza-4-stagioni--449891p695427.jpg" alt="">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0b/b1/78/72/risto-braceria-pizzeria.jpg" alt="">
+            <img src="http://www.scattidigusto.it/wp-content/uploads/2015/11/pizza-wurstel-patatine-pomodoro.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
